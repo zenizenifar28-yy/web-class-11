@@ -1,0 +1,40 @@
+.navbar{justify-content: space-between;
+    display: flex;
+    padding-right: 700px;
+ 
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.vdo{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    object-fit: cover;
+    margin-top: -100px;
+    z-index: -1;
+    position: absolute;
+}
+header{
+    z-index: 999 !important;
+}
+
+.logo img{
+    height: 70px;
+    filter: brightness(0), invert(1);
+    margin-right: 40px;
+
+
+}
