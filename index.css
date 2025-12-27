@@ -20,7 +20,6 @@ li a{
 }
 .vdo{
     width: 100vw;
-    height: 100vh;
     margin: 0;
     object-fit: cover;
     margin-top: -100px;
@@ -42,28 +41,21 @@ li a{
 
 }
 .ferrari-section {
-    position: absolute;
-    bottom: 0;width: 100%;
-    height: 40%;
-    background: #05050513;
-    display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+   margin-top: -200px;
   color: white;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  padding-bottom: 40px;
-   overflow: hidden;
+ 
   }
   
   /* part 2*/
 .part2 {height: 100vh;
     background-color: white;
-   
+   display: flex;
     justify-content: center;
   align-items: center;  
   margin-top: 100px;
-  margin-right: 10px;
+  padding: 20px;
 }  
 
 :root {--primary-font: 'Arial', sans-serif;}
@@ -188,26 +180,26 @@ li a{
 
 /* part 3*/
 .part3 {
-  background-image: url(./pic-avif/8.avif);
-  background-repeat: cover;
-  height: 100vh;
-  margin-bottom: 5px;
-  padding: 0;
-  display: flex;
-}
-.part3s1 {
-  background-image: url(./car-vdo);
   
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100vw;
 }
 
+.part3>section>img{
+  width: 100%;
+  height: 100%;
+  transition: 1s ease;
+}
+
+.part3s1, .part3s2{
+  overflow: hidden;
+}
+
+.image-1:hover{
+transform: scale(1.2);
+}
 .c3-p1 {
   margin-top: auto;
   margin-bottom: 75px;
@@ -273,17 +265,7 @@ justify-content: center;
 
 
 
-.part3s2
- {
-  background-image: url(./pic-avif/0.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .c3-p2 {
   margin-top: auto;
   margin-bottom: 75px;
@@ -349,8 +331,7 @@ justify-content: center;}
 
 
 .part4 {
-  background-image: url(./pic-avif/9.avif);
-  background-repeat: no-repeat;
+  
     width: 50%;
     margin: 0;
     padding: 0;
@@ -358,9 +339,7 @@ justify-content: center;}
   
 
 .part4s1 {
-  background-image: url(./pic-avif/3.avif);
-  height:50%;
-  width: 50%;
+  height: 50%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -369,14 +348,12 @@ justify-content: center;}
 }
 
 .part4s2 {
-  background-image: url(./pic-avif/4.avif);
-  height: 50%;
-  width: 50%;
+ 
   color: white
   ;
-  display: flex;
   align-items: center;
   background-repeat: no-repeat;
+  margin-left: 10px;
   
 
 }
@@ -384,7 +361,7 @@ justify-content: center;}
 
 .part5
  {
-  background-image: url(./pic-avif/8.avif);
+
     height: 50%;
     margin: 0px;
     padding-top: 5px;
@@ -396,7 +373,6 @@ justify-content: center;}
 
 .part5s1
  {
-  background-image: url(./pic-avif/9.avif);
   
 height: 50%;
   margin: 0px;
@@ -411,7 +387,7 @@ height: 50%;
 
 .part5s2
  {
-background-image: url(./pic-avif/7.avif);
+
   background-position: center;
 
   height: 50%;
@@ -455,12 +431,7 @@ background-image: url(./pic-avif/7.avif);
   letter-spacing: 2.1px;
   transition: 2s;
 }
-.part3:hover,.part3s2:hover,.part4:hover,.part4s1:hover,.part4s1:hover,.part5:hover,.part5s1:hover,.part5s2:hover
-{
-  transform: scale(1.1);
-  cursor: pointer;
 
-}
 
 
 .part6 {
